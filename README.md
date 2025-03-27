@@ -18,12 +18,17 @@ del modelo Alisado Triple (Holt-Winters). Se observaron diferencias significativ
 predicciones a largo plazo entre ambos modelos. Al final, se determinó que el modelo
 multiplicativo ofrecía un mejor ajuste, ya que capturaba el incremento de las variaciones
 estacionales.
+<img width="873" alt="Screenshot 2025-03-27 at 14 14 46" src="https://github.com/user-attachments/assets/35af51ba-dbda-4d20-9329-2ea4ac81e7c3" />
+
+
 - En cuanto al modelo ARIMA, era necesario diferenciar la serie temporal para lograr la
 estacionariedad. Se utilizó la función auto_arima para optimizar la selección de parámetros, y al
 final se determinó que el modelo ARIMA(1,1,0)(0,1,0,12) ofrecía el mejor rendimiento, con
 coeficientes significativos y los valores más bajos de AIC y BIC. También, se demostró que los
 residuos de este modelo cumplían con los criterios de ruido blanco, normalidad y varianza
 constante.
+<img width="910" alt="Screenshot 2025-03-27 at 14 13 09" src="https://github.com/user-attachments/assets/c791e9d3-4127-426b-896b-b490e61ea92d" />
+
 - Se llevó a cabo una validación para comparar ambos modelos, en la que se comprobó que
 el modelo ARIMA(1,1,0)(0,1,0,12) era el que mejor se ajustaba a los datos, al presentar los
 valores más bajos de **RMSE**,**MAPE** y **MAE**.
