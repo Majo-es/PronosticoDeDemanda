@@ -28,6 +28,10 @@ constante.
 el modelo ARIMA(1,1,0)(0,1,0,12) era el que mejor se ajustaba a los datos, al presentar los
 valores más bajos de **RMSE**,**MAPE** y **MAE**.
 
+<img width="913" alt="Screenshot 2025-03-27 at 14 10 16" src="https://github.com/user-attachments/assets/4a3b02a6-cb9b-4d79-a8b9-20051d9c58aa" />
+
+
+
 # Pronóstico y Conclusión:
 Se concluyó que ambos modelos capturaban la estacionalidad de los datos, aunque con
 variaciones en la magnitud de las fluctuaciones. Sin embargo, se seleccionó el modelo
