@@ -48,8 +48,8 @@ un crecimiento proyectado para el futuro de 14.04%. En resumen, se desarrolló u
 robusto y preciso para pronosticar la demanda, lo que permitirá a la empresa optimizar la gestión
 de inventario, la planificación de la producción y la toma de decisiones estratégicas.
 
-## 
 
+# 🇬🇧 VERSION: 
 The project focuses on predicting product demand for the next twelve months using historical sales data from the past five years. It involves a comparative analysis of two forecasting models: `Triple Exponential Smoothing (Holt-Winters)` and `ARIMA`. The goal is to determine which model provides higher accuracy in predicting future demand. The analysis includes data preparation, model evaluation using metrics like `RMSE`, `MAPE`, and `MAE`, and forecasting using the selected model. The project determined that `ARIMA(1,1,0)(0,1,0,12)` was the most precise.
 
 - **Data Analysis and Preparation**: The historical sales data is analyzed, and a date index is created to ensure chronological order. The analysis identifies a growing trend and annual seasonality in demand.
