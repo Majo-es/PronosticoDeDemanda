@@ -1,4 +1,4 @@
-# PronosticoDeDemanda
+# PronosticoDeDemanda/ Predicting Product Demand
 @ Leilani A., Maria Jose E., & Maryam F.
 
 # Objetivo
@@ -60,5 +60,6 @@ Model Validation: The two models are compared, and ARIMA(1,1,0)(0,1,0,12) is sel
 - **Forecasting and Conclusion**: The `ARIMA` model is used to forecast demand for the next twelve months. The forecast indicates continued growth with consistent seasonal fluctuations.
   
 Sequence Diagram: 
+
 <img width="685" alt="Provides data and requests forecast" src="https://github.com/user-attachments/assets/ad188259-28fc-4e74-8bff-56b8229df5a7" />
 
