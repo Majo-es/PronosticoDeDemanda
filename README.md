@@ -1,4 +1,5 @@
 # PronosticoDeDemanda
+@ Leilani A., Maria Jose E., & Maryam F.
 
 # Objetivo
 Este proyecto se centró en la predicción de la demanda de un producto durante los
